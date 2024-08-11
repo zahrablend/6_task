@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 8fr;
+    grid-row-gap: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+    align-items: baseline;
+}
+
+.rFloat {
+    float: right;
+    margin-top: -0.5rem;
+}
+
+
+a {
+    padding: 0.5rem 1rem 0.5rem;
+    text-decoration: none;
+    color: grey;
+}
+
+a:hover {
+    text-shadow: 2px 2px 3px darkgrey;
+}
+
+.register {
+    border: 1px solid grey;
+    border-radius:5px;
+    padding-left: 1rem;
+}
+
+.register:hover {
+    background-color: black;
+    border-radius:5px;
+    color: white;
+}
+
+section a {
+ display: block;
+}
+
+header, main {
+    margin: 1rem;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 2rem - 1fr);
+}
+
+main > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    height: 60%;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+
+.leftSec h1, .leftSec p, .leftSec a {
+    margin: 0;
+}
+
+h1 {
+    font-size: 3.5rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+p {
+    text-align: justify;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: grey;
+}
+
+.leftSec a {
+    margin: 1rem 0;
+    background-color: black;
+    width: 100px;
+    color: white;
+    text-decoration: none;
+    border-radius:5px;
+    text-align: center;
+    padding-right: 1.2rem;
+}
+
+.leftSec a:hover {
+    border: 1px solid grey;
+    color: grey;
+    background-color: white;
+}
+
+.leftSec div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.clients > img {
+    width: 25%;
+}
+
+.rightSec {
+    background-image: url("images/image-hero-desktop.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.material-symbols-outlined {
+    font-size: 15px;
+    vertical-align: bottom;
+}
+
